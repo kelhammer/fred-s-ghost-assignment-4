@@ -28,4 +28,4 @@ DATE=$(date +"%m-%d-%Y" )
 
 
 
-echo "$NAME, $COLOR, $AGE, $MOVIE, $HAIR, $STRING, $DATE" > fred.csv
+echo "$NAME, $COLOR, $AGE, $MOVIE, $HAIR, $STRING, $DATE" >> fred.csv
