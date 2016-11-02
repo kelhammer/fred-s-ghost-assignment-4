@@ -1,1 +1,0 @@
-# fred-s-ghost-assignment-4

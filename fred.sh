@@ -21,7 +21,8 @@ echo "What color is your hair?"
 
 read HAIR
 
-STRING=4444
+STRING=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+
 
 DATE=$(date +"%m-%d-%Y" )
 
